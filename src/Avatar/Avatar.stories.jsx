@@ -3,6 +3,20 @@ import { Avatar } from './Avatar';
 export default {
   title: 'Design System/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      subtitle: 'Displays an image that represents a user or organization',
+    },
+  },
+  argTypes: {
+    size: {
+      control: {
+        type: 'select',
+      },
+      options: ['tiny', 'small', 'medium', 'large'],
+    },
+  },
 };
 
 export const Standard = {
