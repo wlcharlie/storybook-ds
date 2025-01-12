@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@wlcharlie/storybook-ds",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -80,5 +80,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
-  }
+  },
+  "description": "example",
+  "repository": "git@github.com:wlcharlie/storybook-ds.git",
+  "author": "wlcharlie <wl00606352@gmail.com>"
 }
